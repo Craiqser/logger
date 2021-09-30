@@ -1,0 +1,26 @@
+{
+	"author": {
+		"email": "craiqser@gmail.com",
+		"name": "Craiqser",
+		"url": "https://github.com/Craiqser/"
+	},
+	"bugs": {
+		"email": "craiqser@gmail.com",
+		"url": "https://github.com/Craiqser/logger/issues"
+	},
+	"description": "Simple colored logger",
+	"homepage": "https://github.com/Craiqser/logger#readme",
+	"keywords": ["color", "console", "logger", "nodejs"],
+	"license": "MIT",
+	"main": "main.js",
+	"name": "@craiqser/logger",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Craiqser/logger.git"
+	},
+	"scripts": {
+		"dev": "node ./main.js"
+	},
+	"type": "module",
+	"version": "1.0.0"
+}
