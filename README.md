@@ -17,3 +17,5 @@ log.info('Message with info level.');
 log.warn('Message with warn level.');
 log.error('Message with error level.');
 ```
+
+![Output:](./logger.png)
