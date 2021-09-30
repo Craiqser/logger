@@ -15,7 +15,6 @@ export default class Logger {
 
 	static #levelIdxs = Object.values(this.Level);
 	static #logLevelColors = ['36', '32', '33', '31'];
-	static #optionsDefault = { level: this.Level.Debug, name: null };
 
 	static #write(level, message, options) {
 		if (this.#levelIdxs.indexOf(level) < options.levelIdx) return;
@@ -23,10 +22,9 @@ export default class Logger {
 		(level === Logger.Level.Error) ? process.stderr.write(log) : process.stdout.write(log);
 	}
 
-	#options = {};
+	#options = { level: Logger.Level.Debug, name: null };
 
 	constructor(options) {
-		Object.assign(this.#options, Logger.#optionsDefault);
 		Object.assign(this.#options, options);
 		this.#options.levelIdx = Object.values(Logger.Level).indexOf(this.#options.level);
 		this.#options.name = options.name ? options.name + ': ' : '';
