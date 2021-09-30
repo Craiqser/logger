@@ -14,6 +14,9 @@
 	"license": "MIT",
 	"main": "main.js",
 	"name": "@craiqser/logger",
+	"publishConfig": {
+		"access": "public"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Craiqser/logger.git"
