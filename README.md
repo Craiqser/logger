@@ -2,10 +2,16 @@
 
 Simple logger
 
+## Install
+
+```bash
+npm i @craiqser/logger
+```
+
 ## Usage
 
 ```js
-import Logger from './Logger.js';
+import Logger from '@craiqser/logger';
 
 const log = new Logger({
 	level: Logger.Level.Debug,
