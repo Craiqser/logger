@@ -9,8 +9,16 @@
 		"url": "https://github.com/Craiqser/logger/issues"
 	},
 	"description": "Simple colored logger",
+	"devDependencies": {
+		"@types/node": "^20.8.6"
+	},
 	"homepage": "https://github.com/Craiqser/logger#readme",
-	"keywords": ["color", "console", "logger", "nodejs"],
+	"keywords": [
+		"color",
+		"console",
+		"logger",
+		"nodejs"
+	],
 	"license": "MIT",
 	"main": "Logger.js",
 	"name": "@craiqser/logger",
@@ -25,5 +33,5 @@
 		"dev": "node ./main.js"
 	},
 	"type": "module",
-	"version": "1.0.1"
+	"version": "1.0.2"
 }
