@@ -30,7 +30,8 @@
 		"url": "git+https://github.com/Craiqser/logger.git"
 	},
 	"scripts": {
-		"dev": "node ./main.js"
+		"dev": "node ./main.js",
+		"pub": "npm publish"
 	},
 	"type": "module",
 	"version": "1.0.2"
